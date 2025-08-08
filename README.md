@@ -1,10 +1,6 @@
 
 Corporate Agent: AI-Powered ADGM Compliance Assistant
 
-## 🚀 Live Demo
-
-**[https://drive.google.com/file/d/1NeSLBgxjiwd4mTgNo3G2GXR5C7yMv1kr/view?usp=sharing]**
-
 Version: 1.1.0
 Author: Rahul Singh
 
@@ -16,7 +12,9 @@ This project was developed as a take-home assignment for the AI Engineer Intern 
 Demo
 A short video demonstrating the application's features and workflow can be found here:
 
-[INSERT YOUR DEMO VIDEO LINK HERE]
+## 🚀 Live Demo
+
+**[https://drive.google.com/file/d/1NeSLBgxjiwd4mTgNo3G2GXR5C7yMv1kr/view?usp=sharing]**
 
 Meeting the Requirements
 This project was built to precisely match the functional objectives specified in the assignment. Here’s how each requirement is met:
@@ -62,7 +60,6 @@ Example "After" Document: The same document after being processed, containing th
 
 Example JSON Report: The structured output file corresponding to the analysis.
 
-Screenshot: A screenshot of the application in use.
 
 ## Project Structure
   ### The project is organized into a modular and scalable architecture for maintainability and future expansion.
