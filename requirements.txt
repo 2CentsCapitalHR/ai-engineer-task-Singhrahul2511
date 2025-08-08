@@ -1,0 +1,11 @@
+streamlit
+python-docx
+sentence-transformers
+faiss-cpu
+langchain
+langchain-community
+langchain-google-genai
+
+langchain-openai 
+docx2txt
+python-dotenv

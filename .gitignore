@@ -1,0 +1,38 @@
+# --- Environment ---
+# Ignore the virtual environment folder
+.venv/
+venv/
+env/
+
+# Ignore the file containing secret API keys
+.env
+
+# --- Python ---
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDEs and Editors ---
+# Ignore VS Code specific files
+.vscode/
+
+# Ignore PyCharm specific files
+.idea/
+
+# --- Build and Distribution ---
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# --- Application-Specific ---
+# Ignore the directory for generated reports and files
+output/
+
+# Ignore the directory for the large, auto-generated vector index
+vector_store/
+
+# Ignore Streamlit cache and config files
+.streamlit/
