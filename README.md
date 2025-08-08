@@ -64,9 +64,9 @@ Example JSON Report: The structured output file corresponding to the analysis.
 
 Screenshot: A screenshot of the application in use.
 
-Project Structure
-The project is organized into a modular and scalable architecture for maintainability and future expansion.
-
+## Project Structure
+  ### The project is organized into a modular and scalable architecture for maintainability and future expansion.
+```bash
 corporate-agent/
 │
 ├── 📂 app/                 # Main application source code
@@ -84,7 +84,7 @@ corporate-agent/
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
 
-
+```
 
 Technologies Used
 Backend: Python
