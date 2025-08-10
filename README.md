@@ -21,19 +21,19 @@ A short video demonstrating the application's features and workflow can be found
 ---
 ## 📊 Dashboard Overview
 
-![Dashboard](demo/Screenshot 2025-08-09 024230.png)
+![Dashboard](demo/p1.png)
 
 ### Upload Document for analysis
-![Document Upload](demo/Screenshot 2025-08-09 024239.png)
+![Document Upload](demo/p2.png)
 
 ### Output interface1
-![Output](demo/Screenshot 2025-08-09 024247.png)
+![Output](demo/p3.png)
 
 ### Output Interface2
-![Output](demo/Screenshot 2025-08-09 024255.png)
+![Output](demo/p4.png)
 
 ### Output interface3
-![Output](demo/Screenshot 2025-08-09 024302.png)
+![Output](demo/p5.png)
 
 ---
 
@@ -112,8 +112,8 @@ corporate-agent/
 ```
 ---
 
+1. **Technologies Used**
 ```bash
-Technologies Used
 Backend: Python
 
 Web Framework: Streamlit
@@ -135,38 +135,52 @@ Python 3.8+
 Git
 
 A Google Gemini API key.
+```
 
-2. Clone the Repository
-git clone <your-repository-url>
+---
+
+2. **Clone the Repository**
+
+```bash
+git clone https://github.com/2CentsCapitalHR/ai-engineer-task-Singhrahul2511.git
 cd corporate-agent
-
-3. Set Up a Virtual Environment
+```
+---
+3. **Set Up a Virtual Environment**
 # Create the virtual environment
+```bash
 python -m venv .venv
-
 # Activate the virtual environment
 # On Windows:
 .\.venv\Scripts\activate
 # On macOS/Linux:
 source .venv/bin/activate
-
-4. Install Dependencies
+```
+---
+4. **Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
+---
+5. **Configure Environment Variables**
+# Create a file named .env in the root of the project directory. Add your Google Gemini API key to this file:
 
-5. Configure Environment Variables
-Create a file named .env in the root of the project directory. Add your Google Gemini API key to this file:
-
+```bash
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
+```
+---
+6. **Populate the ADGM Corpus**
 
-6. Populate the ADGM Corpus
 Place all the provided ADGM legal documents (in .docx format) into the adgm_corpus directory. The RAG pipeline will automatically process these files to build its knowledge base on the first run.
 
 How to Run the Application
 Start the Streamlit App:
 Make sure your virtual environment is activated, then run the following command in the terminal:
-
+```bash
 streamlit run app/main.py
-
+```
+---
+```bash
 Using the Application:
 
 Open your web browser and navigate to the local URL provided by Streamlit (usually http://localhost:8501).
