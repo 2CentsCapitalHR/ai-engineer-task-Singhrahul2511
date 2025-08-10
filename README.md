@@ -16,6 +16,27 @@ A short video demonstrating the application's features and workflow can be found
 
 **[https://drive.google.com/file/d/1NeSLBgxjiwd4mTgNo3G2GXR5C7yMv1kr/view?usp=sharing]**
 
+
+
+---
+## 📊 Dashboard Overview
+
+![Dashboard](demo/Screenshot 2025-08-09 024230.png)
+
+### Upload Document for analysis
+![Document Upload](demo/Screenshot 2025-08-09 024239.png)
+
+### Output interface1
+![Output](demo/Screenshot 2025-08-09 024247.png)
+
+### Output Interface2
+![Output](demo/Screenshot 2025-08-09 024255.png)
+
+### Output interface3
+![Output](demo/Screenshot 2025-08-09 024302.png)
+
+---
+
 Meeting the Requirements
 This project was built to precisely match the functional objectives specified in the assignment. Here’s how each requirement is met:
 
@@ -23,8 +44,11 @@ Requirement
 
 How It's Implemented
 
-Accept .docx documents
+---
 
+```bash
+
+Accept .docx documents
 The Streamlit UI provides a file uploader that accepts multiple .docx files for batch analysis.
 
 Parse and identify document types
@@ -63,6 +87,10 @@ Example JSON Report: The structured output file corresponding to the analysis.
 
 ## Project Structure
   ### The project is organized into a modular and scalable architecture for maintainability and future expansion.
+
+```
+---
+
 ```bash
 corporate-agent/
 │
@@ -82,7 +110,9 @@ corporate-agent/
 └── README.md               # This file
 
 ```
+---
 
+```bash
 Technologies Used
 Backend: Python
 
@@ -148,3 +178,5 @@ Click the "Analyze Submission" button.
 Review the submission completeness report and the detailed analysis for each document.
 
 Download the annotated .docx files with embedded comments.
+
+```
