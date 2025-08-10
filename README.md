@@ -45,9 +45,6 @@ Requirement
 How It's Implemented
 
 ---
-
-```bash
-
 Accept .docx documents
 The Streamlit UI provides a file uploader that accepts multiple .docx files for batch analysis.
 
@@ -84,12 +81,11 @@ Example "After" Document: The same document after being processed, containing th
 
 Example JSON Report: The structured output file corresponding to the analysis.
 
-
-## Project Structure
-  ### The project is organized into a modular and scalable architecture for maintainability and future expansion.
-
-```
 ---
+
+**Project Structure**
+
+The project is organized into a modular and scalable architecture for maintainability and future expansion.
 
 ```bash
 corporate-agent/
@@ -147,7 +143,7 @@ cd corporate-agent
 ```
 ---
 3. **Set Up a Virtual Environment**
-# Create the virtual environment
+Create the virtual environment
 ```bash
 python -m venv .venv
 # Activate the virtual environment
@@ -163,7 +159,7 @@ pip install -r requirements.txt
 ```
 ---
 5. **Configure Environment Variables**
-# Create a file named .env in the root of the project directory. Add your Google Gemini API key to this file:
+Create a file named .env in the root of the project directory. Add your Google Gemini API key to this file:
 
 ```bash
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
@@ -180,7 +176,7 @@ Make sure your virtual environment is activated, then run the following command 
 streamlit run app/main.py
 ```
 ---
-```bash
+
 Using the Application:
 
 Open your web browser and navigate to the local URL provided by Streamlit (usually http://localhost:8501).
@@ -192,5 +188,4 @@ Click the "Analyze Submission" button.
 Review the submission completeness report and the detailed analysis for each document.
 
 Download the annotated .docx files with embedded comments.
-
-```
+---
